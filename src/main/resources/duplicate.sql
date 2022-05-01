@@ -1,0 +1,1 @@
+select max(path) as path1, min(path) as path2, count(id) as occurence from mypictures group by id having count(id) > 1
